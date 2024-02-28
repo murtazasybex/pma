@@ -44,7 +44,7 @@ const ShopCardholders = () => {
             {shopCardholders.map((post, index) => (
               <div
                 key={index}
-                className="py-3 hover-transition  w-full max-w-[400px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
+                className="py-3 hover-transition my-3 w-full max-w-[400px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
               >
                 <img
                   src={post.image}

@@ -14,12 +14,12 @@ const CardOptions = () => {
             From standard to standout papers, get the look you want.
           </p>
         </div>
-        <div className="flex justify-end">
-          <div className="relative flex overflow-hidden gap-3">
+        <div className="">
+          <div className="relative flex overflow-hidden justify-center xl:justify-end flex-wrap xl:gap-3 gap-8">
             {cardOptions.map((post, index) => (
               <div
                 key={index}
-                className="py-3 hover-transition w-full max-w-[340px] px-3 border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
+                className="py-3 hover-transition w-full max-w-[340px] my-3 px-3 border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
               >
                 <img
                   src={post.image}

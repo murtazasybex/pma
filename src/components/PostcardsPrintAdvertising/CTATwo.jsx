@@ -5,12 +5,12 @@ import { NavLink } from "react-router-dom";
 const CTATwo = () => {
   return (
     <>
-      <section className="bg-[#1A7E91] w-full py-2 mt-20">
+      <section className="bg-[#1A7E91] w-full py-2 md:py-0 mt-20">
         <div className="flex justify-around flex-wrap lg:flex-nowrap md:py-0 py-3 items-center px-2">
           <div className="flex mx-auto">
             <img
               src={postcardprintingcta}
-              className="w-full max-w-[950px]"
+              className="w-full"
               alt="call to action"
             />
           </div>

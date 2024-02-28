@@ -4,7 +4,7 @@ import { shopPapersAndTextures } from "../../constants";
 const ShopPapersAndTextures = () => {
   return (
     <>
-      <section className="w-full container mx-auto relative py-8">
+      <section className="w-full  container mx-auto relative py-8">
         <div className="ml-20">
           <h1 className="font-bold text-[28px] mt-7 pl-3 px-2 inter">
             Shop papers & textures
@@ -14,11 +14,11 @@ const ShopPapersAndTextures = () => {
             materials.
           </p>
         </div>
-        <div className="relative overflow-hidden grid md:grid-cols-3 grid-cols-2 gap-3">
+        <div className="relative overflow-hidden flex xl:justify-end justify-center flex-wrap xl:gap-3 gap-8">
           {shopPapersAndTextures.map((post, index) => (
             <div
               key={index}
-              className="py-3 hover-transition  w-full max-w-[400px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
+              className="py-3 hover-transition my-3 w-full max-w-[400px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
             >
               <img
                 src={post.image}

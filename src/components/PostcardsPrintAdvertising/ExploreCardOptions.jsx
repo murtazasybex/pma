@@ -13,11 +13,11 @@ const ExploreCardOptions = () => {
             From standard to standout papers, get the look you want.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-2 relative overflow-hidden gap-3">
+        <div className="flex justify-center lg:justify-end flex-wrap relative overflow-hidden gap-3">
           {exploreCardOptions.map((post, index) => (
             <div
               key={index}
-              className="py-3 my-5 hover-transition w-full max-w-[400px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
+              className="py-3 my-5 hover-transition w-full max-w-[380px] h-full max-h-[520px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
             >
               <img
                 src={post.image}

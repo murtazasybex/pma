@@ -14,11 +14,11 @@ const ShopBySpecialFinish = () => {
             your whole card.
           </p>
         </div>
-        <div className="relative overflow-hidden flex justify-end gap-3">
+        <div className="relative overflow-hidden flex xl:justify-end justify-center flex-wrap gap-3 xl:gap-8">
           {shopBySpecialFinsh.map((post, index) => (
             <div
               key={index}
-              className="py-3 hover-transition  w-full max-w-[400px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
+              className="py-3 hover-transition my-3 w-full max-w-[400px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
             >
               <img
                 src={post.image}

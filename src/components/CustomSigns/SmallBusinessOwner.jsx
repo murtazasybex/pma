@@ -14,7 +14,7 @@ const SmallBusinessOwner = () => {
             most-loved business signs.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-2 relative overflow-hidden gap-3">
+        <div className="flex lg:justify-end justify-center flex-wrap relative overflow-hidden gap-3">
           {smallBusinessOwners.map((post, index) => (
             <div
               key={index}

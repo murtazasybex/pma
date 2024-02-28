@@ -15,6 +15,12 @@ import {
   brandservicesone,
   brandservicesthree,
   brandservicestwo,
+  buildbrandfive,
+  buildbrandfour,
+  buildbrandone,
+  buildbrandsix,
+  buildbrandthree,
+  buildbrandtwo,
   businessownerfive,
   businessownerfour,
   businessownerone,
@@ -55,6 +61,18 @@ import {
   insta,
   lamp,
   linkedin,
+  logoseeneight,
+  logoseeneleven,
+  logoseenfive,
+  logoseenfour,
+  logoseennine,
+  logoseenone,
+  logoseenseven,
+  logoseensix,
+  logoseenten,
+  logoseenthree,
+  logoseentwelve,
+  logoseentwo,
   network,
   officewallfive,
   officewallfour,
@@ -174,6 +192,40 @@ export const responsiveLayout = [
   { breakpoint: 330, cols: 2 },
 ];
 
+export const customsignsFaqs = [
+  {
+    question: "Can I purchase signage accessories on their own?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+  {
+    question: "What custom sign is best for long-term outdoor use?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+  {
+    question:
+      "What resolution and file type should I use when uploading my signage design?Can I purchase signage accessories on their own?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+  {
+    question: "Do you offer custom sign sizes for my business?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+  {
+    question: "Can I order sample business signage products?",
+    answer: [
+      "Yes you can. We have a variety of signage accessory options available for purchase.",
+    ],
+  },
+];
+
 export const faqData = [
   {
     question: "What size are business cards?",
@@ -272,7 +324,7 @@ export const faqData = [
 
 export const cardData = [
   {
-    category: "Business Cards",
+    category: "Shapes",
     items: ["Shapes", "Standard", "Rounded Corner", "Square"],
   },
   {
@@ -329,6 +381,139 @@ export const cardData = [
   },
 ];
 
+export const asideCustomsigns = [
+  {
+    category: "Outdoor Signs",
+    items: [
+      "Car Door Magnets",
+      "Yard Signs",
+      "Mesh Banners",
+      "Signicades",
+      "Shop All Outdoor Signs",
+    ],
+  },
+  {
+    category: "Trade Shows and Events",
+    items: [
+      "A-Frames",
+      "Tension Fabric Displays",
+      "Pop-Up Displays",
+      "Silicone Edge Graphics",
+      "Shop All Tradeshow Displays",
+    ],
+  },
+  {
+    category: "Banners",
+    items: [
+      "Vinyl Banners",
+      "Custom Size Vinyl Banners",
+      "Double-Sided Banners",
+      "Retractable Banners",
+      "Fabric Banners",
+      "Pole Banners",
+      "Shop All Banners",
+    ],
+  },
+  {
+    category: "Posters",
+    items: ["Custom Posters", "Foam Boards", "Shop All Posters"],
+  },
+  {
+    category: "Car Signs",
+    items: [
+      "Car Magnets",
+      "Custom License Plates",
+      "Car Window Decals",
+      "Car Door Decals",
+      "Bumper Stickers",
+    ],
+  },
+  {
+    category: "Decals",
+    items: [
+      "Window Clings",
+      "Perforated Window Vinyl",
+      "Wall Decals",
+      "Window Decals",
+      "Floor Decals",
+      "Shop All Decals",
+    ],
+  },
+  {
+    category: "Rigid Signs",
+    items: [
+      "PVC Free Board Signs",
+      "Metal Signs",
+      "Acrylic Signs",
+      "Plastic Signs",
+      "Shop All Rigid Signs",
+    ],
+  },
+  {
+    category: "Table Covers",
+    items: [
+      "Stretch Table Covers",
+      "Round Tablecloths",
+      "Custom Tablecloths",
+      "Table Runners",
+      "Blank Tablecloths",
+      "Shop All Table Covers",
+    ],
+  },
+  {
+    category: "Office Signs",
+    items: [
+      "Engraved Door Signs",
+      "Desk Name Plates",
+      "Restroom Signs",
+      "Wayfinding Signs",
+      "Shop All Office Signs",
+    ],
+  },
+  {
+    category: "Sign Accessories",
+    items: ["Sign Accessories"],
+  },
+];
+
+export const asidePostcardsData = [
+  {
+    category: "Business Essentials",
+    items: [
+      "Booklets",
+      "Bookmarks",
+      "Brochures",
+      "Business Cards",
+      "Carbonless Forms",
+      "Checks",
+      "Custom Tickets",
+      "Door Hangers",
+      "Flyers",
+      "Gift Card Holders",
+      "Key Card Holders",
+      "Magnets",
+      "Table Tents",
+      "Menus",
+      "Packaging Insert Cards",
+      "Placemats",
+      "Custom Postcards",
+      "Presentation Folders",
+      "Foil Accent Presentation Folders",
+      "Rack Cards",
+    ],
+  },
+  {
+    category: "Services",
+    items: [
+      "Business Sample Kit",
+      "Design Services",
+      "Digital Marketing",
+      "Logo Maker",
+      "Postcard Mailing Services",
+    ],
+  },
+];
+
 export const testimonialData = [
   {
     name: "Thomas Reed",
@@ -365,6 +550,19 @@ export const testimonialData = [
     image: testimonialimgtwo,
     content:
       "For our non-profit, cost-effective and high-quality printing solutions are essential. This company provides both, along with excellent customer support. Their dedication to producing environmentally friendly prints also aligns with our organization's values. Highly recommended for any business looking for responsible printing options.",
+  },
+];
+
+export const announcements = [
+  {
+    content:
+      "Deal of the Week: Free shipping on all business cards | Ends Feb 19",
+    label: "Shop now",
+  },
+  {
+    content:
+      "Deal of the Week: Free shipping on all business cards | Ends Feb 19",
+    label: "Buy  now",
   },
 ];
 
@@ -418,6 +616,30 @@ export const getStarted = [
   { image: getstartedthree },
 ];
 
+export const buildBrand = [
+  { image: buildbrandone },
+  { image: buildbrandtwo },
+  { image: buildbrandthree },
+  { image: buildbrandfour },
+  { image: buildbrandfive },
+  { image: buildbrandsix },
+];
+
+export const moreWays = [
+  { image: logoseenone },
+  { image: logoseentwo },
+  { image: logoseenthree },
+  { image: logoseenfour },
+  { image: logoseenfive },
+  { image: logoseensix },
+  { image: logoseenseven },
+  { image: logoseeneight },
+  { image: logoseennine },
+  { image: logoseenten },
+  { image: logoseeneleven },
+  { image: logoseentwelve },
+];
+
 export const officeWalls = [
   { image: officewallone },
   { image: officewalltwo },
@@ -434,6 +656,10 @@ export const exploreCardOptions = [
   { image: officewallfour },
   { image: officewallfive },
   { image: officewallsix },
+  { image: officewalltwo },
+  { image: officewallthree },
+  { image: officewallfour },
+  { image: officewallfive },
 ];
 
 export const eventTradeshow = [

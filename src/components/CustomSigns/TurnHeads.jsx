@@ -14,7 +14,7 @@ const TurnHeads = () => {
             Take advantage with these durable options.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-2 relative overflow-hidden gap-3">
+        <div className="flex justify-center lg:justify-end flex-wrap relative overflow-hidden gap-3">
           {turnHeads.map((post, index) => (
             <div
               key={index}

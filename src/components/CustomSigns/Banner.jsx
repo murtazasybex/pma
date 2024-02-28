@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import AsideCard from "./AsideCard";
+import Aside from "./Aside";
 import { customsignsbanner } from "../../assets";
 
 const Banner = () => {
@@ -8,7 +8,7 @@ const Banner = () => {
     <>
       <section className="bg-[#1A7E91]">
         <div className="flex justify-around md:space-x-8 flex-wrap lg:flex-nowrap md:py-0 items-center px-2">
-          <AsideCard />
+          <Aside />
           <div className="space-y-3 my-6 flex flex-col items-start justify-center w-full max-w-[620px] text-start md:py-0 py-6 px-2">
             <h1 className="font-bold md:text-[54px] text-[22px] text-white montserrat">
               Custom Signs

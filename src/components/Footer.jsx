@@ -58,7 +58,7 @@ const Footer = () => {
               <img
                 key={index}
                 src={icon.image}
-                className="hover:invert transition-colors hover-transition w-full max-w-[30px]"
+                className="hover:invert cursor-pointer transition-colors hover-transition w-full max-w-[30px]"
                 alt="social links"
               />
             ))}

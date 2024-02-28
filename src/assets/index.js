@@ -142,8 +142,44 @@ import getstartedtwo from "../assets/getstarted-two.webp";
 import getstartedthree from "../assets/getstarted-three.webp";
 import postcardprintingbanner from "../assets/postcardprinting-banner.webp";
 import postcardprintingcta from "../assets/postcardprinting-cta.webp";
+import logoseenone from "../assets/logoseen-one.webp";
+import logoseentwo from "../assets/logoseen-two.webp";
+import logoseenthree from "../assets/logoseen-three.webp";
+import logoseenfour from "../assets/logoseen-four.webp";
+import logoseenfive from "../assets/logoseen-five.webp";
+import logoseensix from "../assets/logoseen-six.webp";
+import logoseenseven from "../assets/logoseen-seven.webp";
+import logoseeneight from "../assets/logoseen-eight.webp";
+import logoseennine from "../assets/logoseen-nine.webp";
+import logoseenten from "../assets/logoseen-ten.webp";
+import logoseeneleven from "../assets/logoseen-eleven.webp";
+import logoseentwelve from "../assets/logoseen-twelve.webp";
+import buildbrandone from "../assets/buildbrand-one.webp";
+import buildbrandtwo from "../assets/buildbrand-one.webp";
+import buildbrandthree from "../assets/buildbrand-three.webp";
+import buildbrandfour from "../assets/buildbrand-four.webp";
+import buildbrandfive from "../assets/buildbrand-five.webp";
+import buildbrandsix from "../assets/buildbrand-six.webp";
 
 export {
+  buildbrandone,
+  buildbrandtwo,
+  buildbrandthree,
+  buildbrandfour,
+  buildbrandfive,
+  buildbrandsix,
+  logoseenone,
+  logoseentwo,
+  logoseenthree,
+  logoseenfour,
+  logoseenfive,
+  logoseensix,
+  logoseenseven,
+  logoseeneight,
+  logoseennine,
+  logoseenten,
+  logoseeneleven,
+  logoseentwelve,
   postcardprintingcta,
   postcardprintingbanner,
   getstartedone,

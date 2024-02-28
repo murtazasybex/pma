@@ -4,7 +4,7 @@ import { eventTradeshow } from "../../constants";
 const EventTradeshow = () => {
   return (
     <>
-      <section className="w-full container mx-auto relative py-8">
+      <section className="w-full container mx-auto relative py-8 px-2">
         <div className="ml-20">
           <h1 className="font-bold text-[28px] mt-7 pl-3 px-2 inter">
             Event or tradeshow coming up?
@@ -14,7 +14,7 @@ const EventTradeshow = () => {
             good one with eye-catching tablecloths and signs.
           </p>
         </div>
-        <div className="grid md:grid-cols-3 grid-cols-2 relative overflow-hidden gap-3">
+        <div className="flex justify-center lg:justify-end flex-wrap relative overflow-hidden gap-3">
           {eventTradeshow.map((post, index) => (
             <div
               key={index}

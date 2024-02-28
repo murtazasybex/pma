@@ -110,7 +110,7 @@ const Navbar = () => {
           </div>
 
           {/* Hamburger */}
-          <div className="xl:hidden flex flex-1 justify-between items-center pt-5 pr-2">
+          <div className="xl:hidden flex flex-1 justify-between items-center pt-2 pr-2">
             <NavLink to="/" className="w-full max-w-[150px]">
               <img src={navlogo} alt="" />
             </NavLink>

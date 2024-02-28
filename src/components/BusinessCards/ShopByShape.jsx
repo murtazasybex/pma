@@ -5,7 +5,7 @@ const ShopByShape = () => {
   return (
     <>
       <section className="w-full container mx-auto relative py-8">
-        <div className="ml-96">
+        <div className="">
           <h1 className="font-bold text-[28px] mt-7 pl-3 px-2 inter">
             Explore all your card options
           </h1>
@@ -13,11 +13,11 @@ const ShopByShape = () => {
             From standard to standout papers, get the look you want.
           </p>
         </div>
-        <div className="relative overflow-hidden flex justify-end gap-3">
+        <div className="relative overflow-hidden flex-wrap justify-center flex xl:justify-end xl:gap-3 gap-8">
           {shopByShape.map((post, index) => (
             <div
               key={index}
-              className="py-3 hover-transition  w-full max-w-[340px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
+              className="py-3 hover-transition my-3 w-full max-w-[340px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
             >
               <img
                 src={post.image}

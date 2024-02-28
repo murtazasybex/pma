@@ -14,7 +14,13 @@ const ServicesToGetStarted = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1800,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1200,
         settings: {
           slidesToShow: 3,
         },
@@ -22,14 +28,14 @@ const ServicesToGetStarted = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],
   };
   return (
     <>
-      <section className="w-full container mx-auto relative py-8">
+      <section className="w-full max-w-[1220px] mx-auto container relative py-8">
         <div className="">
           <h1 className="font-bold text-[28px] mt-7 pl-3 px-2 montserrat">
             Services to help you get started
@@ -39,16 +45,16 @@ const ServicesToGetStarted = () => {
             support you in every part of the process.
           </p>
         </div>
-        <div className="relative overflow-hidden gap-3">
+        <div className="relative py-3 overflow-hidden gap-3">
           <Slider {...settings}>
             {getStarted.map((post, index) => (
               <div
                 key={index}
-                className="py-3 hover-transition  w-full max-w-[400px] px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
+                className="py-3 hover-transition w-full max-w-[380px] h-full max-h-[520px] max px-3 hover:border hover:bg-[#F8F8F8] transition-colors rounded-2xl cursor-pointer"
               >
                 <img
                   src={post.image}
-                  className="px-1 rounded-2xl"
+                  className="px-1 rounded-2xl w-full max-w-[330px]"
                   alt="social post"
                 />
                 <h1 className="font-bold text-[17px] mt-4 pl-3 px-2 inter">

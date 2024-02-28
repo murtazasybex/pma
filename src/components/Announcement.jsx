@@ -1,5 +1,5 @@
 import React from "react";
-import { arrow, arrowleft, arrowright } from "../assets";
+import { arrowleft, arrowright } from "../assets";
 
 const Announcement = () => {
   return (

@@ -23,9 +23,15 @@ const CardsForAnyType = () => {
         },
       },
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
         },
       },
       {
@@ -53,7 +59,7 @@ const CardsForAnyType = () => {
   return (
     <>
       <section className="w-full bg-[#E1EEF1] mx-auto relative z-0 px-2">
-        <div className="pb-6 relative">
+        <div className="pb-6 relative container mx-auto">
           <div>
             <h1 className="font-bold text-[28px] py-6 montserrat">
               Cards for any type of business
@@ -68,7 +74,7 @@ const CardsForAnyType = () => {
               See more business card templates
             </p>
           </div>
-          <div className="mx-auto container">
+          <div>
             <Slider ref={sliderRef} {...settings}>
               {cardsForAnytype.map((item, index) => (
                 <div
@@ -77,7 +83,7 @@ const CardsForAnyType = () => {
                 >
                   <img
                     src={item.image}
-                    className="hover-transition max-w-full max-h-full rounded-full overflow-hidden mx-auto w-[330px] h-[330px] flex justify-center items-center"
+                    className="hover-transition max-w-full max-h-full rounded-full overflow-hidden mx-auto w-[250px] h-[250px] flex justify-center items-center"
                     alt="product image"
                   />
                   <p className="text-center font-bold pt-3 text-[17px]">

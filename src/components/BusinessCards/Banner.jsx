@@ -1,14 +1,14 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { businesscardbanner } from "../../assets";
-import AsideCard from "./AsideCard";
+import Aside from "./Aside";
 
 const Banner = () => {
   return (
     <>
       <section className="bg-[#1A7E91]">
         <div className="flex justify-around md:space-x-8 flex-wrap lg:flex-nowrap md:py-0 items-center px-2">
-          <AsideCard />
+          <Aside />
           <div className="space-y-3 my-6 flex flex-col items-start justify-center w-full max-w-[620px] text-start md:py-0 py-6 px-2">
             <h1 className="font-bold md:text-[54px] text-[22px] text-white montserrat">
               BUSINESS CARDS
@@ -18,7 +18,7 @@ const Banner = () => {
               Enter code at checkout. Deal cannot be combined with other offers.
               Ends Feb. 19 | Code: SHIPBC
             </p>
-            <div className="flex flex-wrap space-x-3 pt-3">
+            <div className="flex lg:flex-row flex-col lg:space-y-0 space-y-3 lg:justify-center items-start justify-start lg:space-x-3 space-x-0 pt-3">
               <NavLink to="/signin">
                 <button className="hover-transition py-2 px-10 bg-black text-[14px] hover:bg-black/80 transition-colors inter text-white rounded-full font-semibold">
                   Browse designs

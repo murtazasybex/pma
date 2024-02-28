@@ -4,7 +4,7 @@ import { faqData } from "../../constants";
 const FAQs = () => {
   return (
     <>
-      <section className="container px-2 mx-auto w-full max-w-[1024px]">
+      <section className="container px-5 mx-auto w-full max-w-[1024px]">
         <h1 className="font-bold text-[28px] inter">
           Frequently Asked Questions
         </h1>
